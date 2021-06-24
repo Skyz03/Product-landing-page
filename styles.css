@@ -1,0 +1,31 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+}
+
+/* Navigation Sesction  */
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+}
+
+.navbar-brand {
+  flex-grow: 1;
+}
+
+.navbrand-logo {
+  max-width: 30%;
+}
+
+.nav-bar {
+  flex-grow: 2;
+  max-width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
