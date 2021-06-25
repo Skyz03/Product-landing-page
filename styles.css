@@ -8,12 +8,17 @@ body {
 }
 
 /* Navigation Sesction  */
-header {
+#header {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin: 1%;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  background-color: #eee;
+  padding: 0 10%;
+  min-height: 50px;
 }
 
 .logo {
@@ -42,6 +47,7 @@ header {
 /* Hero Section */
 .hero-section {
   text-align: center;
+  margin-top: 5%;
 }
 
 #form {
@@ -155,4 +161,18 @@ footer {
   margin: 0 1%;
   text-decoration: none;
   color: #000;
+}
+
+@media (max-width: 640px) {
+  .navbrand-logo {
+    max-width: 80%;
+  }
+
+  #nav-bar {
+    flex-grow: 2;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: none;
+  }
 }
