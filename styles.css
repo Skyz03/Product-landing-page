@@ -13,11 +13,12 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  position: sticky;
+  margin: 1%;
 }
 
 .logo {
   flex-grow: 1;
+  width: 70%;
 }
 
 .navbrand-logo {
@@ -26,10 +27,16 @@ header {
 
 #nav-bar {
   flex-grow: 2;
-  max-width: 40%;
+  max-width: 50%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #000;
+  /* margin: 5%; */
 }
 
 /* Hero Section */
@@ -51,7 +58,7 @@ header {
 
 /* Features Section */
 
-.features {
+#features {
   max-width: 60%;
   margin: 0 auto;
 }
