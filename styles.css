@@ -4,6 +4,7 @@
 
 body {
   box-sizing: border-box;
+  margin: 0;
 }
 
 /* Navigation Sesction  */
@@ -78,4 +79,73 @@ header {
 #video {
   width: 100%;
   max-width: 560px;
+}
+
+/* Pricing Cards Section */
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#card {
+  border: 1px solid black;
+  text-align: center;
+  margin: 5% 0;
+}
+
+ol {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 3%;
+}
+
+.pricing-heading {
+  margin: 0;
+  background-color: #ddd;
+  text-transform: uppercase;
+  color: #000;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+
+.pricing-tag {
+  font-size: 1.7rem;
+}
+
+.price-btn {
+  background-color: yellow;
+  margin: 5% 0;
+  padding: 5% 15%;
+  cursor: pointer;
+  border: 0;
+  text-transform: uppercase;
+  border-radius: 15px;
+}
+
+/* Footer Section */
+footer {
+  background-color: #ddd;
+  padding: 3%;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.navigation {
+  margin: 1% 0;
+}
+
+.navigation a {
+  margin: 0 1%;
+  text-decoration: none;
+  color: #000;
 }
