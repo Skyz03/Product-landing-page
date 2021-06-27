@@ -11,7 +11,8 @@ This challenge was taken from freecode camp website where we have to built a rep
   6) Footer Element
   
   ### ScreenShot:
-  
+  ![image](https://user-images.githubusercontent.com/42742924/123548070-06d14e00-d783-11eb-99e0-cf959966b48d.png)
+
   
   ### Things learned: 
   The main learning from building this site was the implemetation of CSS ```Flexbox``` and its added features such as ```justify content``` and sort of ```alignments```. 
